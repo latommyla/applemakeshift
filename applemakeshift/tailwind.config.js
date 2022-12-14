@@ -7,6 +7,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       'sourcesans': ["'Silkscreen'", 'cursive'],
+      'lato': ["'Lato'", 'sans-serif'],
     }
   },
   plugins: [],
