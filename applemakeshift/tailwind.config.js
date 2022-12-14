@@ -13,12 +13,16 @@ module.exports = {
       'fade-in': {
         '0%': {
           opacity: '0',
-          transforms: 'translateX(10px)'
+          transform: 'translateX(20px)',
         },
+        '100%': {
+          opacity: '1',
+          transform: 'translateX(0)',
+        }
       }
     },
     animation: {
-      'fade-in': 'fade-in .7s ease-out'
+      'fade-in': 'fade-in .3s ease-out'
     }
   },
   plugins: [],
