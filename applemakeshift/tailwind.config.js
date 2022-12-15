@@ -19,10 +19,21 @@ module.exports = {
           opacity: '1',
           transform: 'translateX(0)',
         }
+      },
+      'fade-down': {
+        '0%': {
+          opacity: '0',
+          transform: 'translateY(-30px)',
+        },
+        '100%': {
+          opacity: '1',
+          transform: 'translateY(0)',
+        }
       }
     },
     animation: {
-      'fade-in': 'fade-in .2s ease-out'
+      'fade-in': 'fade-in .2s ease-out',
+      'fade-down': 'fade-down .5s ease-in',
     }
   },
   plugins: [],
