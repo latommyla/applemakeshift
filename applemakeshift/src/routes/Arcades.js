@@ -4,6 +4,7 @@ import Navbar from '../components/navbar/Navbar';
 import Arcade from '../components/pages/arcade/Arcadespage';
 import Terminator from '../components/pages/arcade/TR2Terminator';
 import Cocktail from '../components/pages/arcade/Cocktail';
+import Comparison from '../components/pages/arcade/Comparison';
 
 export default function Arcades() {
   return (
@@ -12,6 +13,7 @@ export default function Arcades() {
       <Arcade />
       <Terminator />
       <Cocktail />
+      <Comparison />
     </main>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Terminator from '../../images/products/CocktailTilt.png'
+import CocktailTilt from '../../images/products/CocktailTilt.png'
 
 export default function Cocktail() {
     return (
@@ -16,7 +16,7 @@ export default function Cocktail() {
                     <p class="text-center ml-4"> Learn more </p>
                     </div>
                 </div>
-                <img class="m-auto w-96 h-96" src={Terminator} />
+                <img class="m-auto w-96 h-96" src={CocktailTilt} />
             </div>
         </div>
     );
