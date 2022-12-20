@@ -7,11 +7,11 @@ import Pinball from '../../images/products/PinballTR2.png'
 
 export default function Comparison() {
     return (
-        <div class="font-lato m-auto pb-20 h-screen">
+        <div class="font-lato m-auto pb-20 h-screen sm:w-screen">
             <div class="m-auto pt-28 text-center">
                 <p class="font-bold text-5xl mt-2"> Which Arcade is right for you? </p>
             </div>
-            <div class="w-2/3 flex place-items-center m-auto grid grid-cols-4 text-center">
+            <div class="w-7/12 place-items-center m-auto grid gap-4 grid-cols-2 sm:grid-cols-4 text-center">
                 <div class="pt-36">
                     <img class="w-44 h-44" src={ Terminator } />
                     <p class="pt-10 text-2xl font-bold"> TR2 Terminator </p>
