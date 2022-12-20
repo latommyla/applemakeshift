@@ -5,7 +5,7 @@ import CocktailTilt from '../../images/products/CocktailTilt.png'
 export default function Cocktail() {
     return (
         <div class="w-screen-xl font-lato pt-20 text-white">
-            <div class="m-auto pt-28 text-center animate-fade-in bg-black pb-16">
+            <div class="m-auto pt-28 text-center bg-black pb-16">
                 <span class="text-orange-400 text-lg font-bold"> Best Seller </span>
                 <p class="font-bold text-5xl mt-2"> Tilt-Screen Cocktail </p>
                 <p class="mb-6 font-bold text-2xl"> 3-Sided Arcade Machine.</p>
