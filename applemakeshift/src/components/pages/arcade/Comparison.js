@@ -13,7 +13,7 @@ export default function Comparison() {
             </div>
             <div class="w-7/12 place-items-center m-auto grid gap-4 grid-cols-2 sm:grid-cols-4 text-center">
                 <div class="pt-36">
-                    <img class="w-44 h-44" src={ Terminator } />
+                    <img class="w-44 h-44" src={ Terminator } alt="TR2 Terminator" />
                     <p class="pt-10 text-2xl font-bold"> TR2 Terminator </p>
                     <p class="mt-8"> From $8499 </p>
                     <button class="bg-blue-500 hover:bg-blue-400 text-white py-1 px-3 rounded-full mt-2"> Buy </button>
@@ -29,7 +29,7 @@ export default function Comparison() {
                     </div>
                 </div>
                 <div class="pt-36">
-                    <img class="w-44 h-44" src={ Pinball }/>
+                    <img class="w-44 h-44" src={ Pinball } alt="TR2 Pinball" />
                     <p class="pt-10 text-2xl font-bold"> Virtual Pinball TR2 </p>
                     <p class="mt-8"> From $5599 </p>
                     <button class="bg-blue-500 hover:bg-blue-400 text-white py-1 px-3 rounded-full mt-2"> Buy </button>
@@ -45,14 +45,14 @@ export default function Comparison() {
                     </div>
                 </div>
                 <div class="pt-36">
-                    <img class="w-44 h-44" src={ Cocktail }/>
+                    <img class="w-44 h-44" src={ Cocktail } alt="3 Sided Tilt Cocktail" />
                     <p class="pt-10 text-2xl font-bold"> 3-Sided Tilt Screen </p>
                     <p class="mt-8"> From $2598 </p>
                     <button class="bg-blue-500 hover:bg-blue-400 text-white py-1 px-3 rounded-full mt-2"> Buy </button>
                     <p class="mt-2"> Learn more </p>
                     <hr class="my-4 mx-auto h-1 bg-gray-200 rounded border-0 md:my-10"></hr>
                     <div class="mt-10">
-                        <p class="text-2xl"> 4500 </p>
+                        <p class="text-2xl"> 1162+ </p>
                         <p class="text-sm"> Games </p>
                     </div>
                     <div class="mt-10">
@@ -61,7 +61,7 @@ export default function Comparison() {
                     </div>
                 </div>
                 <div class="pt-36">
-                    <img class="w-44 h-44" src={ Racing }/>
+                    <img class="w-44 h-44" src={ Racing } alt="Racing Sit Down" />
                     <p class="pt-10 text-2xl font-bold"> Racing Sit Down</p>
                     <p class="mt-8"> From $3999 </p>
                     <button class="bg-blue-500 hover:bg-blue-400 text-white py-1 px-3 rounded-full mt-2"> Buy </button>

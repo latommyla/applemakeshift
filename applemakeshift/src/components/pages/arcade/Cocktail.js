@@ -16,7 +16,7 @@ export default function Cocktail() {
                     <p class="text-center ml-4"> Learn more </p>
                     </div>
                 </div>
-                <img class="m-auto w-96 h-96" src={CocktailTilt} />
+                <img class="m-auto w-96 h-96" src={CocktailTilt} alt="3 Sided Tilt Cocktail" />
             </div>
         </div>
     );
