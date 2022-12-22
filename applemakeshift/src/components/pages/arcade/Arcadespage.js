@@ -9,7 +9,7 @@ import Barrel from '../../images/BarrelIcon.png'
 export default function Aracadespage() {
     return (
         <div class="m-auto md:m-auto pt-7 md:pt-11">
-            <div class="p-4 md:p-0 overflow-y-scroll w-screen md:max-w-screen-sm flex md:grid sm:grid-cols-5 md:grid-cols-5 m-auto place-items-center text-xs font-lato animate-fade-in">
+            <div class="flex p-4 md:p-0 overflow-y-scroll w-screen md:max-w-screen-sm md:grid sm:grid-cols-5 md:grid-cols-5 m-auto place-items-center text-xs font-lato animate-fade-in">
                 <div class="pt-4 text-center">
                     <a class="hover:text-amber-500">
                         <img src={Standup} class="w-20 w-20 rounded-lg transition ease-in-out" alt="Standup Arcades" title="Standup Arcades" /><p class="mt-2"> STAND-UP </p></a>
