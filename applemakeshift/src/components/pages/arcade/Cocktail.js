@@ -13,7 +13,7 @@ export default function Cocktail() {
                 <div class="flex pb-6">
                     <div class="m-auto flex items-center p-2">
                     <button class="bg-blue-500 hover:bg-blue-400 text-white py-2 px-4 rounded-full"> Buy </button>
-                    <p class="text-center ml-4"> Learn more </p>
+                    <p class="text-center ml-4 hover:underline text-blue-500"> Learn more </p>
                     </div>
                 </div>
                 <img class="m-auto w-96 h-96" src={CocktailTilt} alt="3 Sided Tilt Cocktail" />
