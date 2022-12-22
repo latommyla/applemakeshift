@@ -1,5 +1,11 @@
 import React from 'react'
 
+import {
+    BrowserRouter as Router,
+
+    Link
+  } from "react-router-dom";
+
 import Terminator from '../../images/products/TR2Terminator.png'
 
 export default function TR2Terminator() {
@@ -15,7 +21,7 @@ export default function TR2Terminator() {
                 <p> From $8499 </p>
                 <div class="flex pb-6">
                     <div class="m-auto flex items-center p-2">
-                    <button class="bg-blue-500 hover:bg-blue-400 text-white py-1 md:py-2 px-3 md:px-4 rounded-full"> Buy </button>
+                    <Link to="/product"><button class="bg-blue-500 hover:bg-blue-400 text-white py-1 md:py-2 px-3 md:px-4 rounded-full"> Buy </button></Link>
                     <p class="text-center ml-4 hover:underline text-blue-500"> Learn more </p>
                     </div>
                 </div>
