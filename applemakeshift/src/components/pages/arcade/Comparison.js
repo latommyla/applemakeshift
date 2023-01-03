@@ -35,6 +35,7 @@ export default function Comparison() {
                         <p class="text-xl md:text-2xl"> 3 Year </p>
                         <p class="text-sm"> Warranty </p>
                     </div>
+                    <hr class="my-4 mx-auto h-1 bg-gray-200 rounded border-0 md:my-10"></hr>
                 </div>
                 <div class="pt-0 md:pt-16 md:w-52">
                     <img class="w-32 h-32 md:w-44 md:h-44 m-auto" src={ Pinball } alt="TR2 Pinball" />
@@ -59,6 +60,7 @@ export default function Comparison() {
                         <p class="text-xl md:text-2xl"> 3 Year </p>
                         <p class="text-sm"> Warranty </p>
                     </div>
+                    <hr class="my-4 mx-auto h-1 bg-gray-200 rounded border-0 md:my-10"></hr>
                 </div>
                 <div class="pt-14 md:pt-16 md:w-52">
                     <img class="w-32 h-32 md:w-44 md:h-44 m-auto" src={ Cocktail } alt="3 Sided Tilt Cocktail" />
@@ -83,6 +85,7 @@ export default function Comparison() {
                         <p class="text-xl md:text-2xl"> 3 Year </p>
                         <p class="text-sm"> Warranty </p>
                     </div>
+                    <hr class="my-4 mx-auto h-1 bg-gray-200 rounded border-0 md:my-10"></hr>
                 </div>
                 <div class="pt-14 md:pt-16 md:w-52">
                     <img class="w-32 h-32 md:w-44 md:h-44 m-auto" src={ Racing } alt="Racing Sit Down" />
@@ -107,6 +110,7 @@ export default function Comparison() {
                         <p class="text-xl md:text-2xl"> 3 Year </p>
                         <p class="text-sm"> Warranty </p>
                     </div>
+                    <hr class="my-4 mx-auto h-1 bg-gray-200 rounded border-0 md:my-10"></hr>
                 </div>
             </div>
         </div>
