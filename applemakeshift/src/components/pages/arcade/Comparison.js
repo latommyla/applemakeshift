@@ -7,7 +7,7 @@ import Pinball from '../../images/products/PinballTR2.png'
 
 export default function Comparison() {
     return (
-        <div class="font-lato m-auto pb-20 h-screen sm:w-screen items-center">
+        <div class="font-lato m-auto pb-20 items-center">
             <div class="m-auto pt-28 text-center">
                 <p class="font-bold m-20 text-3xl md:text-5xl mt-2"> Which Arcade is right for you? </p>
             </div>
