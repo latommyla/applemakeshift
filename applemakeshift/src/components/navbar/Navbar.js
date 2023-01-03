@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
-        <nav class="bg-[#323233] h-11 m-auto fixed w-screen">
+        <nav class="bg-[#323233] h-11 m-auto fixed w-screen z-10">
             <div class="hidden items-center w-full md:flex md:w-auto">
                     <ul class="flex flex-col mt-4 md:flex-row md:space-x-11 md:mt-0 md:text-xs md:font-medium items-center m-auto text-white font-sourcesans text-gray-300">
                         <li>
