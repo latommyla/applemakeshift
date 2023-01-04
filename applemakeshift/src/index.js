@@ -12,9 +12,9 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Landing />} />
-      <Route path="standup" element={<Arcades />} />
-      <Route path="cocktail" element={<Cocktail />} />
-      <Route path="product" element={<Product />} />
+      <Route path="/standup" element={<Arcades />} />
+      <Route path="/cocktail" element={<Cocktail />} />
+      <Route path="/product" element={<Product />} />
     </Routes>
   </BrowserRouter>
 );

@@ -11,7 +11,7 @@ export default function Comparison() {
             <div class="m-auto pt-28 text-center">
                 <p class="font-bold m-20 text-3xl md:text-5xl mt-2"> Which Arcade is right for you? </p>
             </div>
-            <div class="p-2 md:p-0 md:w-4/12 place-items-center justify-center m-auto grid md:gap-60 grid-cols-2 sm:grid-cols-4 text-center">
+            <div class="p-2 md:p-0 md:w-4/12 place-items-center justify-center m-auto grid md:gap-64 grid-cols-2 sm:grid-cols-4 text-center">
                 <div class="pt-0 md:pt-16 md:w-52">
                     <img class="w-32 h-32 md:w-44 md:h-44 m-auto" src={ Terminator } alt="TR2 Terminator" />
                     <p class="pt-10 text-xl md:text-2xl font-bold"> TR2 Terminator </p>
