@@ -56,8 +56,8 @@ export default function Comparison() {
                     </div>
                     <hr class="my-4 mx-auto h-1 bg-gray-200 rounded border-0 md:my-10"></hr>
                 </div>
-                <div class="pt-0 md:pt-16 md:w-52">
-                    <img class="w-32 h-32 md:w-44 md:h-44 m-auto" src={ ComboPinball7403 } alt="TR1 Slim" />
+                <div class="pt-14 md:pt-16 md:w-52">
+                    <img class="w-32 h-32 md:w-44 md:h-44 m-auto" src={ ComboPinball7403 } alt="Combo Pinball 7403" />
                     <p class="pt-10 text-xl md:text-2xl font-bold"> 2 in 1 Combo (2P) </p>
                     <p class="mt-3 md:mt-8"> From $3999 </p>
                     <button class="bg-blue-500 hover:bg-blue-400 text-white py-1 px-3 rounded-full mt-2"> Buy </button>

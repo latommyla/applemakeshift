@@ -7,7 +7,7 @@ export default function ComboPinball7403() {
         <div class="w-screen-xl font-lato pt-20 text-white">
             <div class="m-auto pt-14 md:pt-28 text-center bg-black pb-16">
                 <span class="text-orange-400 text-md md:text-lg font-bold"> New </span>
-                <p class="font-bold text-4xl md:text-5xl mt-2"> Pinball & Arcade Combo </p>
+                <p class="font-bold text-4xl md:text-5xl mt-2"> Pinball & Arcade </p>
                 <p class="mb-4 md:mb-6 font-bold text-xl md:text-2xl"> 2 in 1 Machine. </p>
                 <p> From $3999 </p>
                 <div class="flex pb-6">
