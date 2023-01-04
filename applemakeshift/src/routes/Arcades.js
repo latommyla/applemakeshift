@@ -1,19 +1,19 @@
 import React from 'react';
 
 import Navbar from '../components/navbar/Navbar';
-import Arcade from '../components/pages/arcade/Arcadespage';
-import Terminator from '../components/pages/arcade/TR2Terminator';
-import Cocktail from '../components/pages/arcade/Cocktail';
-import Comparison from '../components/pages/arcade/Comparison';
-import Lowerbanner from '../components/pages/arcade/Lowerbanner';
+import Arcadenav from '../components/pages/standup/Arcadenav';
+import Terminator from '../components/pages/standup/TR2Terminator';
+import TR1Slim from '../components/pages/standup/TR1Slim';
+import Comparison from '../components/pages/standup/Comparison';
+import Lowerbanner from '../components/pages/standup/Lowerbanner';
 
 export default function Arcades() {
   return (
     <main>
       <Navbar />
-      <Arcade />
+      <Arcadenav />
       <Terminator />
-      <Cocktail />
+      <TR1Slim />
       <Comparison />
       <Lowerbanner />
     </main>

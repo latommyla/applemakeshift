@@ -18,10 +18,7 @@ export default function Navbar() {
                             <Link to="/" class="block md:hover:text-white"> Home </Link>
                         </li>
                         <li>
-                            <Link to="arcades" class="block md:hover:text-white"> Arcades </Link>
-                        </li>
-                        <li>
-                            <Link to="pinball" class="block md:hover:text-white"> Pinball </Link>
+                            <Link to="standup" class="block md:hover:text-white"> Arcades </Link>
                         </li>
                         <li>
                             <Link to="gallery" class="block md:hover:text-white"> Gallery </Link>
