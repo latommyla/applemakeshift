@@ -1,9 +1,9 @@
 import React from 'react'
 
 import Terminator from '../../images/products/TR2Terminator.png'
-import Cocktail from '../../images/products/CocktailTilt.png'
+import Tr1slim from '../../images/products/TR1Slim.png'
+import Playerslim4 from '../../images/products/4Playerslim.png'
 import Racing from '../../images/products/RacingSitDown.png'
-import Pinball from '../../images/products/PinballTR2.png'
 
 export default function Comparison() {
     return (
@@ -28,7 +28,7 @@ export default function Comparison() {
                         <p class="text-sm"> LCD </p>
                     </div>
                     <div class="mt-10">
-                        <p class="text-xl md:text-2xl"> 2-4 </p>
+                        <p class="text-xl md:text-2xl"> 1-4 </p>
                         <p class="text-sm"> Players </p>
                     </div>
                     <div class="mt-10">
@@ -38,22 +38,22 @@ export default function Comparison() {
                     <hr class="my-4 mx-auto h-1 bg-gray-200 rounded border-0 md:my-10"></hr>
                 </div>
                 <div class="pt-0 md:pt-16 md:w-52">
-                    <img class="w-32 h-32 md:w-44 md:h-44 m-auto" src={ Pinball } alt="TR2 Pinball" />
-                    <p class="pt-10 text-xl md:text-2xl font-bold"> Virtual Pinball TR2 </p>
-                    <p class="mt-3 md:mt-8"> From $5599 </p>
+                    <img class="w-32 h-32 md:w-44 md:h-44 m-auto" src={ Tr1slim } alt="TR1 Slim" />
+                    <p class="pt-10 text-xl md:text-2xl font-bold"> TR1 Slim </p>
+                    <p class="mt-3 md:mt-8"> From $4999 </p>
                     <button class="bg-blue-500 hover:bg-blue-400 text-white py-1 px-3 rounded-full mt-2"> Buy </button>
                     <p class="mt-2 hover:underline text-blue-500"> Learn more </p>
                     <hr class="my-4 mx-auto h-1 bg-gray-200 rounded border-0 md:my-10"></hr>
                     <div class="mt-10">
-                        <p class="text-xl md:text-2xl"> 327 </p>
+                        <p class="text-xl md:text-2xl"> 6296 </p>
                         <p class="text-sm"> Games </p>
                     </div>
                     <div class="mt-10">
-                        <p class="text-xl md:text-2xl"> 49" </p>
-                        <p class="text-sm"> 4K-LCD </p>
+                        <p class="text-xl md:text-2xl"> 43" </p>
+                        <p class="text-sm"> LCD </p>
                     </div>
                     <div class="mt-10">
-                        <p class="text-xl md:text-2xl"> 1-2 </p>
+                        <p class="text-xl md:text-2xl"> 1-4 </p>
                         <p class="text-sm"> Players </p>
                     </div>
                     <div class="mt-10">
@@ -63,14 +63,14 @@ export default function Comparison() {
                     <hr class="my-4 mx-auto h-1 bg-gray-200 rounded border-0 md:my-10"></hr>
                 </div>
                 <div class="pt-14 md:pt-16 md:w-52">
-                    <img class="w-32 h-32 md:w-44 md:h-44 m-auto" src={ Cocktail } alt="3 Sided Tilt Cocktail" />
-                    <p class="pt-10 text-xl md:text-2xl font-bold"> 3-Sided Tilt Screen </p>
-                    <p class="mt-3 md:mt-8"> From $2598 </p>
+                    <img class="w-32 h-32 md:w-44 md:h-44 m-auto" src={ Playerslim4 } alt="4 Player Slim" />
+                    <p class="pt-10 text-xl md:text-2xl font-bold"> 4 Player Slim </p>
+                    <p class="mt-3 md:mt-8"> From $3499 </p>
                     <button class="bg-blue-500 hover:bg-blue-400 text-white py-1 px-3 rounded-full mt-2"> Buy </button>
                     <p class="mt-2 hover:underline text-blue-500"> Learn more </p>
                     <hr class="my-4 mx-auto h-1 bg-gray-200 rounded border-0 md:my-10"></hr>
                     <div class="mt-10">
-                        <p class="text-xl md:text-2xl"> 1162+ </p>
+                        <p class="text-xl md:text-2xl"> 3500+ </p>
                         <p class="text-sm"> Games </p>
                     </div>
                     <div class="mt-10">
@@ -78,7 +78,7 @@ export default function Comparison() {
                         <p class="text-sm"> LCD </p>
                     </div>
                     <div class="mt-10">
-                        <p class="text-xl md:text-2xl"> 1-2 </p>
+                        <p class="text-xl md:text-2xl"> 1-4 </p>
                         <p class="text-sm"> Players </p>
                     </div>
                     <div class="mt-10">
