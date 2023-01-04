@@ -18,19 +18,19 @@ export default function Navbar() {
                             <Link to="/" class="block md:hover:text-white"> Home </Link>
                         </li>
                         <li>
-                            <Link to="standup" class="block md:hover:text-white"> Arcades </Link>
+                            <Link to="/standup" class="block md:hover:text-white"> Arcades </Link>
                         </li>
                         <li>
-                            <Link to="gallery" class="block md:hover:text-white"> Gallery </Link>
+                            <Link to="/gallery" class="block md:hover:text-white"> Gallery </Link>
                         </li>
                         <li>
-                            <Link to="help" class="block md:hover:text-white"> Help </Link>
+                            <Link to="/help" class="block md:hover:text-white"> Help </Link>
                         </li>
                         <li>
-                            <Link to="contact" class="block md:hover:text-white"> Contact </Link>
+                            <Link to="/contact" class="block md:hover:text-white"> Contact </Link>
                         </li>
                         <li>
-                            <Link to="blog" class="block md:hover:text-white"> Blog </Link>
+                            <Link to="/blog" class="block md:hover:text-white"> Blog </Link>
                         </li>
                         <li>
                             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#D1D5DB" class="bi bi-search hover:fill-white" viewBox="0 0 16 16">
