@@ -6,6 +6,7 @@ import Cocktail3Sided from '../components/pages/cocktail/TiltCocktail';
 import Cocktail2Player from '../components/pages/cocktail/Cocktail2Player';
 import Comparison from '../components/pages/cocktail/Comparison';
 import Lowerbanner from '../components/pages/cocktail/Lowerbanner';
+import Footer from '../components/footer/Footer';
 
 export default function Arcades() {
   return (
@@ -16,6 +17,7 @@ export default function Arcades() {
       <Cocktail2Player />
       <Comparison />
       <Lowerbanner />
+      <Footer />
     </main>
   );
 }

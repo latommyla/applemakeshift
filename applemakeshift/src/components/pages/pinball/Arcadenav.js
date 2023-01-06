@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 export default function Aracadenav() {
     return (
         <div class="m-auto md:m-auto w-screen pt-7 md:pt-11">
-            <div class="flex p-4 md:p-0 md:max-w-screen-sm md:grid sm:grid-cols-5 md:grid-cols-5 m-auto place-items-center text-xs font-lato animate-none sm:animate-fade-in">
+            <div class="flex p-4 md:p-0 md:max-w-screen-sm gap-4 md:grid sm:grid-cols-5 md:grid-cols-5 m-auto place-items-center text-xs font-lato animate-none sm:animate-fade-in">
                 <div class="pt-4 text-center">
                     <Link to="/standup" class="hover:text-amber-500">
                         <img src={Standup} class="w-20 w-20 rounded-lg transition ease-in-out" alt="Standup Arcades" title="Standup Arcades" /><p class="mt-2"> STAND-UP </p></Link>

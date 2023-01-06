@@ -6,6 +6,7 @@ import Racingsit from '../components/pages/racing/Racingsitdown';
 import Cocktail2Player from '../components/pages/racing/Racingstandup';
 import Comparison from '../components/pages/racing/Comparison';
 import Lowerbanner from '../components/pages/racing/Lowerbanner';
+import Footer from '../components/footer/Footer';
 
 export default function Arcades() {
   return (
@@ -16,6 +17,7 @@ export default function Arcades() {
       <Cocktail2Player />
       <Comparison />
       <Lowerbanner />
+      <Footer />
     </main>
   );
 }

@@ -6,6 +6,7 @@ import Terminator from '../components/pages/standup/TR2Terminator';
 import TR1Slim from '../components/pages/standup/TR1Slim';
 import Comparison from '../components/pages/standup/Comparison';
 import Lowerbanner from '../components/pages/standup/Lowerbanner';
+import Footer from '../components/footer/Footer';
 
 export default function Arcades() {
   return (
@@ -16,6 +17,7 @@ export default function Arcades() {
       <TR1Slim />
       <Comparison />
       <Lowerbanner />
+      <Footer />
     </main>
   );
 }

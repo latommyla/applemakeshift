@@ -6,6 +6,7 @@ import TR2Pinball from '../components/pages/pinball/TR2Pinball';
 import Cocktail2Player from '../components/pages/pinball/ComboPinball';
 import Comparison from '../components/pages/pinball/Comparison';
 import Lowerbanner from '../components/pages/pinball/Lowerbanner';
+import Footer from '../components/footer/Footer';
 
 export default function Arcades() {
   return (
@@ -16,6 +17,7 @@ export default function Arcades() {
       <Cocktail2Player />
       <Comparison />
       <Lowerbanner />
+      <Footer />
     </main>
   );
 }
