@@ -7,7 +7,7 @@ import PinballTR2 from '../../images/products/TR2Pinball.png'
 export default function TR2Pinball() {
     return (
         <div class="w-screen-xl font-lato">
-            <div class="mt-1 md:mt-6 text-center bg-gray-100 p-3 animate-fade-down">
+            <div class="mt-1 md:mt-6 text-center bg-gray-100 p-3 animate-none sm:animate-fade-down">
                 <p> Free Shipping to Lower 48 States </p>
             </div>
             <div class="m-auto pt-10 text-center">
