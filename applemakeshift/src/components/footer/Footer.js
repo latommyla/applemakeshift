@@ -7,17 +7,17 @@ import { Footer } from 'flowbite-react'
 export default function FooterMain() {
     return (
         <div class="w-screen m-auto bg-gray-100">
-            <div className="max-w-screen-xl m-auto">
+            <div className="sm:max-w-screen-xl m-auto">
                 <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
                     <div>
                         <img
                             href="/"
                             src={Logo}
                             alt="Creative Arcades Logo"
-                            class="h-20 mt-20"
+                            class="h-20 mt-4 sm:mt-20 m-auto"
                         />
                     </div>
-                    <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-4 sm:gap-10">
+                    <div className="p-4 m-auto grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-4 sm:gap-12">
                         <div>
                             <Footer.Title title="Navigate" />
                             <Footer.LinkGroup col={true}>
