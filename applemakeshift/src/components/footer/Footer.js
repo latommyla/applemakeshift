@@ -8,16 +8,16 @@ export default function FooterMain() {
     return (
         <div class="w-screen m-auto bg-gray-100">
             <div className="sm:max-w-screen-xl m-auto">
-                <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
+                <div className="grid w-full justify-center sm:flex sm:justify-between md:flex md:grid-cols-1">
                     <div>
                         <img
                             href="/"
                             src={Logo}
                             alt="Creative Arcades Logo"
-                            class="h-20 mt-4 sm:mt-20 m-auto"
+                            class=" h-20 mt-4 sm:mt-20 m-auto"
                         />
                     </div>
-                    <div className="p-4 m-auto grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-4 sm:gap-12">
+                    <div className="p-5 m-auto grid grid-cols-2 gap-14 sm:mt-4 sm:grid-cols-4 sm:gap-12">
                         <div>
                             <Footer.Title title="Navigate" />
                             <Footer.LinkGroup col={true}>
@@ -68,7 +68,7 @@ export default function FooterMain() {
                                     Order Status
                                 </Footer.Link>
                                 <Footer.Link href="#">
-                                    Click to Schedule Tech Call
+                                    Schedule Tech Call
                                 </Footer.Link>
                             </Footer.LinkGroup>
                         </div>
@@ -85,14 +85,14 @@ export default function FooterMain() {
                                     Order Status
                                 </Footer.Link>
                                 <Footer.Link href="#">
-                                    Click to Schedule Tech Call
+                                    Schedule Tech Call
                                 </Footer.Link>
                             </Footer.LinkGroup>
                         </div>
                     </div>
                 </div>
                 <Footer.Divider />
-                    <div className="sm:flex sm:items-center sm:justify-center -mt-5 pb-4">
+                    <div className="flex items-center justify-center -mt-3 pb-3 sm:-mt-5 sm:pb-4">
                         <Footer.Copyright
                             href="#"
                             by="Creative Arcades™"

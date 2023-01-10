@@ -9,7 +9,7 @@ import Image4 from '../../images/Carousel04.jpg'
 
 export default function Carouselbottom() {
     return (
-        <div className="mt-10 mb-10 m-auto max-w-5xl sm:h-[34rem]">
+        <div className="p-1 sm:p-0 mt-2 sm:mt-10 mb-2 sm:mb-10 m-auto max-w-5xl h-56 sm:h-[34rem]">
             <Carousel slideInterval={5000} leftControl=" " rightControl=" ">
                 <img
                     src={ Image1 }
