@@ -14,7 +14,7 @@ export default function FooterMain() {
                             href="/"
                             src={Logo}
                             alt="Creative Arcades Logo"
-                            class=" h-20 mt-4 sm:mt-20 m-auto"
+                            class="h-20 mt-4 sm:mt-20 m-auto"
                         />
                     </div>
                     <div className="p-5 m-auto grid grid-cols-2 gap-14 sm:mt-4 sm:grid-cols-4 sm:gap-12">
