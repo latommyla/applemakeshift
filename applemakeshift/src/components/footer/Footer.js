@@ -17,7 +17,7 @@ export default function FooterMain() {
                             class="h-20 mt-4 sm:mt-20 m-auto"
                         />
                     </div>
-                    <div className="p-5 m-auto grid grid-cols-2 gap-14 sm:mt-4 sm:grid-cols-4 sm:gap-12">
+                    <div className="mt-4 sm:mt-0 p-5 m-auto grid grid-cols-2 gap-14 sm:mt-4 sm:grid-cols-4 sm:gap-12">
                         <div>
                             <Footer.Title title="Navigate" />
                             <Footer.LinkGroup col={true}>

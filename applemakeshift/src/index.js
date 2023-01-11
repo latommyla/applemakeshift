@@ -8,6 +8,7 @@ import Cocktail from './routes/Cocktail'
 import Pinball from './routes/Pinball'
 import Product from './routes/Product'
 import Racing from './routes/Racing'
+import Winebarrel from './routes/Winebarrel'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
       <Route path="/cocktail" element={<Cocktail />} />
       <Route path="/pinball" element={<Pinball />} />
       <Route path="/racing" element={<Racing />} />
+      <Route path="/winebarrel" element={<Winebarrel />} />
       <Route path="/product" element={<Product />} />
     </Routes>
   </BrowserRouter>
