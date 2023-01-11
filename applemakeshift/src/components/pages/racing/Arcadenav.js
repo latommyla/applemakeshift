@@ -25,12 +25,12 @@ export default function Aracadenav() {
                         <img src={Pinball} class="w-20 w-20 rounded-lg transition ease-in-out" alt="Pinball Machine" title="Pinball Machines" /><p class="mt-2"> PINBALL </p></Link>
                 </div>
                 <div class="pt-4 text-center">
-                    <a class="hover:text-amber-500">
-                        <img src={Racing} class="w-20 w-20 rounded-lg transition ease-in-out" alt="Racing Arcades" title="Racing Arcades" /><p class="mt-2"> RACING </p></a>
+                    <Link to="/racing" class="hover:text-amber-500">
+                        <img src={Racing} class="w-20 w-20 rounded-lg transition ease-in-out" alt="Racing Arcades" title="Racing Arcades" /><p class="mt-2"> RACING </p></Link>
                 </div>
                 <div class="pt-4 text-center">
-                    <a class="hover:text-amber-500">
-                        <img src={Barrel} class="w-20 w-20 rounded-lg transition ease-in-out" alt="Barrel Arcades" title="Barrel Arcades" /><p class="mt-2"> BARREL </p></a>
+                    <Link to="/winebarrel" class="hover:text-amber-500">
+                        <img src={Barrel} class="w-20 w-20 rounded-lg transition ease-in-out" alt="Barrel Arcades" title="Barrel Arcades" /><p class="mt-2"> BARREL </p></Link>
                 </div>
             </div>
         </div>
