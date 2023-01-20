@@ -27,7 +27,7 @@ export default function FooterMain() {
                                 <Footer.Link href="#">
                                     All Products
                                 </Footer.Link>
-                                <Footer.Link href="#">
+                                <Footer.Link href="/manualsandinstructions">
                                     Manuals/Instructions
                                 </Footer.Link>
                                 <Footer.Link href="/aboutus">
