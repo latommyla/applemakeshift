@@ -50,7 +50,7 @@ export default function FooterMain() {
                                 <Footer.Link href="/returnpolicy">
                                     Return Policy
                                 </Footer.Link>
-                                <Footer.Link href="#">
+                                <Footer.Link href="/warranty">
                                     Warranty
                                 </Footer.Link>
                             </Footer.LinkGroup>

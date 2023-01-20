@@ -13,6 +13,7 @@ import Winebarrel from './routes/Winebarrel'
 import Terms from './routes/ourpolicies/termsandconditions'
 import Privacypolicy from './routes/ourpolicies/privacypolicy'
 import Shipping from './routes/ourpolicies/shippingdelivery'
+import Warranty from './routes/ourpolicies/warranty'
 import Return from './routes/ourpolicies/returnpolicy'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -29,6 +30,7 @@ root.render(
       <Route path="/privacypolicy" element={<Privacypolicy />} />
       <Route path="/shippinganddelivery" element={<Shipping />} />
       <Route path="/returnpolicy" element={<Return />} />
+      <Route path="/warranty" element={<Warranty />} />
       <Route path="/product" element={<Product />} />
     </Routes>
   </BrowserRouter>
