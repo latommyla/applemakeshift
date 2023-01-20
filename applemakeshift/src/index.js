@@ -15,6 +15,7 @@ import Privacypolicy from './routes/ourpolicies/privacypolicy'
 import Shipping from './routes/ourpolicies/shippingdelivery'
 import Warranty from './routes/ourpolicies/warranty'
 import Return from './routes/ourpolicies/returnpolicy'
+import About from './routes/ourpolicies/aboutus'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,6 +32,7 @@ root.render(
       <Route path="/shippinganddelivery" element={<Shipping />} />
       <Route path="/returnpolicy" element={<Return />} />
       <Route path="/warranty" element={<Warranty />} />
+      <Route path="/aboutus" element={<About />} />
       <Route path="/product" element={<Product />} />
     </Routes>
   </BrowserRouter>

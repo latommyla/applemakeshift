@@ -30,7 +30,7 @@ export default function FooterMain() {
                                 <Footer.Link href="#">
                                     Manuals/Instructions
                                 </Footer.Link>
-                                <Footer.Link href="#">
+                                <Footer.Link href="/aboutus">
                                     About Us
                                 </Footer.Link>
                             </Footer.LinkGroup>
