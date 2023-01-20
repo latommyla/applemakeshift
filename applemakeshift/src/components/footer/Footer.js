@@ -44,7 +44,7 @@ export default function FooterMain() {
                                 <Footer.Link href="/privacypolicy">
                                     Privacy Policy
                                 </Footer.Link>
-                                <Footer.Link href="#">
+                                <Footer.Link href="/shippinganddelivery">
                                     Shipping & Delivery
                                 </Footer.Link>
                                 <Footer.Link href="#">

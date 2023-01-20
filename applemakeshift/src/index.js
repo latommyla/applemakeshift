@@ -12,6 +12,7 @@ import Racing from './routes/Racing'
 import Winebarrel from './routes/Winebarrel'
 import Terms from './routes/ourpolicies/termsandconditions'
 import Privacypolicy from './routes/ourpolicies/privacypolicy'
+import Shipping from './routes/ourpolicies/shippingdelivery'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +26,7 @@ root.render(
       <Route path="/winebarrel" element={<Winebarrel />} />
       <Route path="/termsandconditions" element={<Terms />} />
       <Route path="/privacypolicy" element={<Privacypolicy />} />
+      <Route path="/shippinganddelivery" element={<Shipping />} />
       <Route path="/product" element={<Product />} />
     </Routes>
   </BrowserRouter>

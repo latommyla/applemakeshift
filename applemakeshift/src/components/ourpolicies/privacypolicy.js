@@ -1,7 +1,5 @@
 import React from 'react'
 
-import { Link } from "react-router-dom";
-
 export default function PrivacyPolicy() {
     return (
         <div class="m-auto pb-10 pt-16 p-2 max-w-screen-lg">
