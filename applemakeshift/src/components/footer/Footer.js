@@ -38,10 +38,10 @@ export default function FooterMain() {
                         <div>
                             <Footer.Title title="Our Policies" />
                             <Footer.LinkGroup col={true}>
-                                <Footer.Link href="#">
+                                <Footer.Link href="/termsandconditions">
                                     Terms & Conditions
                                 </Footer.Link>
-                                <Footer.Link href="#">
+                                <Footer.Link href="/privacypolicy">
                                     Privacy Policy
                                 </Footer.Link>
                                 <Footer.Link href="#">
