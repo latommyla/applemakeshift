@@ -9,11 +9,19 @@ import Manual3500Games from '../images/pdfs/3500GamesManual.pdf'
 import Manual4500Games from '../images/pdfs/4500GamesManual.pdf'
 import Manual4500Games4p from '../images/pdfs/4500GamesManual4p.pdf'
 import Manual4700Games from '../images/pdfs/4700GamesManual.pdf'
+import TR1Manual from '../images/pdfs/TR16296Manual.pdf'
+import TR2Manual from '../images/pdfs/TR29043Manual.pdf'
 
 import Pinball322Manual from '../images/pdfs/322PinballManual.pdf'
 import Pinball13062030Manual from '../images/pdfs/13062030PinballManual.pdf'
 import PinballButtonCallout from '../images/pdfs/PinballButtonCallouts.pdf'
 import Pinball11076296Manual from '../images/pdfs/11076296PinballManual.pdf'
+
+import RacingManual from '../images/pdfs/Racing107Manual.pdf'
+
+import LEDDimmer from '../images/pdfs/LEDDimmerSwitchKit.pdf'
+import ArcadeStool from '../images/pdfs/AdjustableStoolsInstructions.pdf'
+import SwivelBarStool from '../images/pdfs/SwivelBarStool.pdf'
 
 export default function Manuals() {
     return (
@@ -28,7 +36,7 @@ export default function Manuals() {
             </div>
             <div>
                 <div class="m-auto grid grid-cols-1 sm:grid-cols-2 pb-10">
-                    <div class="m-auto text-center row-span-3">
+                    <div class="text-center row-span-3">
                         <p class="text-2xl font-bold pb-4"> Arcade Manuals </p>
                         <a href={ Manual60Games } target="_none"><p class="text-xl hover:underline mb-3"> 2 Player - 60 Games Manual </p></a>
                         <a href={ Manual412Games } target="_none"><p class="text-xl hover:underline mb-3"> 2 Player - 412, 750, & 1162 Games Manual </p></a>
@@ -37,13 +45,25 @@ export default function Manuals() {
                         <a href={ Manual4500Games } target="_none"><p class="text-xl hover:underline mb-3"> 2 Player - 4500 Games Manual </p></a>
                         <a href={ Manual4500Games4p } target="_none"><p class="text-xl hover:underline mb-3"> 4 Player - 4500 Games Manual </p></a>
                         <a href={ Manual4700Games } target="_none"><p class="text-xl hover:underline mb-3"> 2 Player - 4700 Games Manual </p></a>
+                        <a href={ TR1Manual } target="_none"><p class="text-xl hover:underline mb-3"> 2P/4P Slim & TR-1 6296 Games Manual </p></a>
+                        <a href={ TR2Manual } target="_none"><p class="text-xl hover:underline mb-3"> 4 Player TR-2 Shooter 9043 Games Manual </p></a>
                     </div>
-                    <div class="m-auto text-center">
+                    <div class="text-center row-span-3">
                         <p class="text-2xl font-bold pb-4"> Pinball Manuals </p>
                         <a href={ Pinball322Manual } target="_none"><p class="text-xl hover:underline mb-3"> 322 Games Pinball Manual </p></a>
                         <a href={ Pinball13062030Manual } target="_none"><p class="text-xl hover:underline mb-3"> 1306-2033 Games Pinball Manual </p></a>
                         <a href={ PinballButtonCallout } target="_none"><p class="text-xl hover:underline mb-3"> Pinball/Arcade Combo Button Layout </p></a>
                         <a href={ Pinball11076296Manual } target="_none"><p class="text-xl hover:underline mb-3"> 1107 + 6296 Pinball Combo Manual </p></a>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-2xl font-bold pb-4 pt-10"> Racing Manuals </p>
+                        <a href={ RacingManual } target="_none"><p class="text-xl hover:underline mb-3"> 107 Games Sit-Down Racing Manual </p></a>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-2xl font-bold pb-4 pt-10"> Accessory Manuals/Instructions </p>
+                        <a href={ LEDDimmer } target="_none"><p class="text-xl hover:underline mb-3"> LED Dimer Switch Kit Manual </p></a>
+                        <a href={ ArcadeStool } target="_none"><p class="text-xl hover:underline mb-3"> Adjustable Height Stools Assembly </p></a>
+                        <a href={ SwivelBarStool } target="_none"><p class="text-xl hover:underline mb-3"> Swivel Bar Stool Assembly </p></a>
                     </div>
                 </div>
             </div>
