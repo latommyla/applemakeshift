@@ -17,7 +17,7 @@ export default function FooterMain() {
                             class="h-20 mt-4 sm:mt-20 m-auto ml-24"
                         />
                     </div>
-                    <div className="mt-4 sm:mt-0 p-5 m-auto grid grid-cols-2 gap-14 sm:mt-4 sm:grid-cols-4 sm:gap-12">
+                    <div className="mt-4 sm:mt-0 p-5 m-auto grid grid-cols-2 gap-14 sm:mt-4 sm:grid-cols-3 sm:gap-12">
                         <div>
                             <Footer.Title title="Navigate" />
                             <Footer.LinkGroup col={true}>
@@ -67,24 +67,7 @@ export default function FooterMain() {
                                 <Footer.Link href="#">
                                     Order Status
                                 </Footer.Link>
-                                <Footer.Link href="#">
-                                    Schedule Tech Call
-                                </Footer.Link>
-                            </Footer.LinkGroup>
-                        </div>
-                        <div>
-                            <Footer.Title title="Get Connected" />
-                            <Footer.LinkGroup col={true}>
-                                <Footer.Link href="#">
-                                    Affiliate Program
-                                </Footer.Link>
-                                <Footer.Link href="#">
-                                    Sales
-                                </Footer.Link>
-                                <Footer.Link href="#">
-                                    Order Status
-                                </Footer.Link>
-                                <Footer.Link href="#">
+                                <Footer.Link href="https://calendly.com/creativearcades">
                                     Schedule Tech Call
                                 </Footer.Link>
                             </Footer.LinkGroup>
