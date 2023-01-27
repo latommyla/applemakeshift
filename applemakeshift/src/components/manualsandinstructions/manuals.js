@@ -45,7 +45,7 @@ export default function Manuals() {
             <div>
                 <div class="-mt-10 sm:mt-0 m-auto grid grid-cols-1 sm:grid-cols-2 pb-10">
                     <div class="p-4 sm:p-0 text-center row-span-3">
-                        <p class="text-2xl font-bold pb-4"> Arcade Manuals </p>
+                        <p class="text-2xl font-bold pb-4"> Arcade Manuals </p> 
                         <a href={Manual60Games} target="_none"><p class="text-lg sm:text-xl hover:underline mb-3"> 2 Player - 60 Games Manual </p></a>
                         <a href={Manual412Games} target="_none"><p class="text-lg sm:text-xl hover:underline mb-3"> 2 Player - 412, 750, & 1162 Games Manual </p></a>
                         <a href={Manual3000Games} target="_none"><p class="text-lg sm:text-xl hover:underline mb-3"> 2 Player - 3000 Games Manual </p></a>
@@ -90,7 +90,7 @@ export default function Manuals() {
                 <br></br>
                 <p class="text-lg sm:text-xl"><a href="https://www.youtube.com/watch?v=V7hwb8OuLwY" target="_blank" rel="noreferrer" class="hover:underline">Open 26" & 32" TILT Cocktail Lift-Top</a></p>
             </div>
-            <div class="pt-10 pb-10 text-center">
+            <div class="pt-10 sm:pt-20 pb-10 text-center">
                 <Card href="mailto:tech@creative-arcades.com">
                     <h5 className="text-xl sm:text-2xl font-bold tracking-tight text-gray-900">
                         If you require more tech support, click here to email us.

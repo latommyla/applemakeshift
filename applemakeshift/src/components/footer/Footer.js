@@ -14,7 +14,7 @@ export default function FooterMain() {
                             href="/"
                             src={Logo}
                             alt="Creative Arcades Logo"
-                            class="h-20 mt-4 sm:mt-20 m-auto"
+                            class="h-20 mt-4 sm:mt-20 m-auto ml-24"
                         />
                     </div>
                     <div className="mt-4 sm:mt-0 p-5 m-auto grid grid-cols-2 gap-14 sm:mt-4 sm:grid-cols-4 sm:gap-12">
@@ -24,7 +24,7 @@ export default function FooterMain() {
                                 <Footer.Link href="/">
                                     Home
                                 </Footer.Link>
-                                <Footer.Link href="#">
+                                <Footer.Link href="/standup">
                                     All Products
                                 </Footer.Link>
                                 <Footer.Link href="/manualsandinstructions">
@@ -58,7 +58,7 @@ export default function FooterMain() {
                         <div>
                             <Footer.Title title="Get Connected" />
                             <Footer.LinkGroup col={true}>
-                                <Footer.Link href="#">
+                                <Footer.Link href="/affiliateprogram">
                                     Affiliate Program
                                 </Footer.Link>
                                 <Footer.Link href="#">
@@ -94,7 +94,7 @@ export default function FooterMain() {
                 <Footer.Divider />
                     <div className="flex items-center justify-center -mt-3 pb-3 sm:-mt-5 sm:pb-4">
                         <Footer.Copyright
-                            href="#"
+                            href="/"
                             by="Creative Arcades™"
                             year={2023}
                         />

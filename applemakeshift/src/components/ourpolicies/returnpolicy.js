@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Returnpolicy() {
     return (
-        <div class="m-auto pb-10 pt-16 p-2 max-w-screen-lg">
+        <div class="h-fit m-auto pb-10 pt-16 p-2 max-w-screen-lg">
             <p class="p-10 font-bold text-3xl md:text-5xl mt-2 text-center"> Return Policy </p>
             <div class="flex pb-6">
                 <div class="m-auto p-2">
@@ -11,7 +11,7 @@ export default function Returnpolicy() {
                     <p> Orders cancelled before shipping are subject to a 10% order cancellation fee. Custom artwork is non-refundable. </p>
                     <br></br>
                     <p class="font-bold"> Please note the following exceptions to our return and exchange policy: </p>
-                    <ul class="list-disc">
+                    <ul class="list-disc leading-loose">
                         <li class="ml-8"> Discounted items are final and cannot be returned or exchanged. </li>
                         <li class="ml-8"> Custom Artwork is non-refundable. </li>
                         <li class="ml-8"> Returned items must have tags still on and be returned in original packaging. </li>
@@ -19,7 +19,7 @@ export default function Returnpolicy() {
                     </ul>
                     <br></br>
                     <p class="font-bold"> To initiate a return or exchange, please complete the following steps: </p>
-                    <ul class='list-decimal'>
+                    <ul class='list-decimal leading-loose'>
                         <li class="ml-8"> Call 949-381-7367 between 9am-5pm PST. </li>
                         <li class="ml-8"> Ask to speak with someone about a return, exchange, or cancellation. </li>
                         <li class="ml-8"> Be sure to have your order number ready. </li>
