@@ -70,23 +70,30 @@ export default function FooterMain() {
           <div className="max-w-6xl m-auto py-3 px-4 sm:flex sm:items-center sm:justify-between">
             <Footer.Copyright href="/" by="Creative Arcades™" year={2023} />
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-              <Footer.Icon
+              <a
                 href="https://www.facebook.com/creativearcades"
-                icon={BsFacebook}
-                class="hover:opacity-40"
-              />
-              <Footer.Icon
+                target="_blank"
+              >
+                <BsFacebook size={20} className="hover:opacity-70" />
+              </a>
+              <a
                 href="https://www.instagram.com/creativearcades/"
-                icon={BsInstagram}
-              />
-              <Footer.Icon
+                target="_blank"
+              >
+                <BsInstagram size={20} className="hover:opacity-70" />
+              </a>
+              <a
                 href="https://www.pinterest.com/creativearcades"
-                icon={BsPinterest}
-              />
-              <Footer.Icon
+                target="_blank"
+              >
+                <BsPinterest size={20} className="hover:opacity-70" />
+              </a>
+              <a
                 href="https://www.youtube.com/@creativearcades1755/featured"
-                icon={BsYoutube}
-              />
+                target="_blank"
+              >
+                <BsYoutube size={20} className="hover:opacity-70" />
+              </a>
             </div>
           </div>
         </div>
