@@ -73,6 +73,7 @@ export default function FooterMain() {
               <a
                 href="https://www.facebook.com/creativearcades"
                 target="_blank"
+                rel="noreferrer"
               >
                 <BsFacebook
                   size={20}
@@ -83,6 +84,7 @@ export default function FooterMain() {
               <a
                 href="https://www.instagram.com/creativearcades/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <BsInstagram
                   size={20}
@@ -93,6 +95,7 @@ export default function FooterMain() {
               <a
                 href="https://www.pinterest.com/creativearcades"
                 target="_blank"
+                rel="noreferrer"
               >
                 <BsPinterest
                   size={20}
@@ -103,6 +106,7 @@ export default function FooterMain() {
               <a
                 href="https://www.youtube.com/@creativearcades1755/featured"
                 target="_blank"
+                rel="noreferrer"
               >
                 <BsYoutube
                   size={20}
