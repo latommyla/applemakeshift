@@ -12,7 +12,7 @@ export default function Navbartest() {
       fluid={true}
       class="bg-[#323233] h-11 sm:m-auto fixed w-screen z-10"
     >
-      <div class="container relative flex flex-wrap items-center justify-center mx-auto">
+      <div class="container relative flex items-center justify-center mx-auto">
         <div class="flex sm:flex-none sm:m-0 w-screen items-center sm:w-fit">
           <div class="m-auto">
             <a href="/">
