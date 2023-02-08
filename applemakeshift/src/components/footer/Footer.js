@@ -74,25 +74,41 @@ export default function FooterMain() {
                 href="https://www.facebook.com/creativearcades"
                 target="_blank"
               >
-                <BsFacebook size={20} className="hover:opacity-70" />
+                <BsFacebook
+                  size={20}
+                  className="hover:opacity-70"
+                  color="gray"
+                />
               </a>
               <a
                 href="https://www.instagram.com/creativearcades/"
                 target="_blank"
               >
-                <BsInstagram size={20} className="hover:opacity-70" />
+                <BsInstagram
+                  size={20}
+                  className="hover:opacity-70"
+                  color="gray"
+                />
               </a>
               <a
                 href="https://www.pinterest.com/creativearcades"
                 target="_blank"
               >
-                <BsPinterest size={20} className="hover:opacity-70" />
+                <BsPinterest
+                  size={20}
+                  className="hover:opacity-70"
+                  color="gray"
+                />
               </a>
               <a
                 href="https://www.youtube.com/@creativearcades1755/featured"
                 target="_blank"
               >
-                <BsYoutube size={20} className="hover:opacity-70" />
+                <BsYoutube
+                  size={20}
+                  color="gray"
+                  className="hover:opacity-70"
+                />
               </a>
             </div>
           </div>
