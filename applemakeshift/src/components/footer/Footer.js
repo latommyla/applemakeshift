@@ -66,10 +66,10 @@ export default function FooterMain() {
             </div>
           </div>
         </div>
-        <div className="w-screen bg-gray-200">
-          <div className="max-w-6xl m-auto py-3 px-4 sm:flex sm:items-center sm:justify-between">
+        <div className="w-screen bg-gray-200 text-center">
+          <div className="flex flex-col-reverse sm:flex-row max-w-6xl m-auto py-3 px-4 sm:items-center sm:justify-between">
             <Footer.Copyright href="/" by="Creative Arcades™" year={2023} />
-            <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
+            <div className="flex space-x-6 sm:mt-0 mb-2 sm:mb-0 justify-center">
               <a
                 href="https://www.facebook.com/creativearcades"
                 target="_blank"
