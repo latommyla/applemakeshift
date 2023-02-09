@@ -10,8 +10,7 @@ export default function Comparison() {
     <div class="font-lato m-auto pb-10 sm:pb-20 items-center w-screen sm:max-w-screen-xl">
       <div class="m-auto pt-28 text-center">
         <p class="font-bold m-20 text-3xl md:text-5xl mt-2">
-          {" "}
-          Which Arcade is right for you?{" "}
+          Which Arcade is right for you?
         </p>
       </div>
       <div class="p-2 md:p-0 md:w-4/12 place-items-center justify-center m-auto grid md:gap-64 grid-cols-2 lg:grid-cols-4 text-center">
@@ -24,8 +23,7 @@ export default function Comparison() {
           <p class="pt-10 text-xl md:text-2xl font-bold"> XL Wine Barrel </p>
           <p class="mt-3 md:mt-8"> From $2199 </p>
           <button class="bg-blue-500 hover:bg-blue-400 text-white py-1 px-3 rounded-full mt-2">
-            {" "}
-            Buy{" "}
+            Buy
           </button>
           <p class="mt-2 hover:underline text-blue-500"> Learn more </p>
           <hr class="my-4 mx-auto h-1 bg-gray-200 rounded border-0 md:my-10"></hr>
@@ -68,8 +66,7 @@ export default function Comparison() {
           <p class="pt-10 text-xl md:text-2xl font-bold"> 24" Wine Barrel </p>
           <p class="mt-3 md:mt-8"> From $2049 </p>
           <button class="bg-blue-500 hover:bg-blue-400 text-white py-1 px-3 rounded-full mt-2">
-            {" "}
-            Buy{" "}
+            Buy
           </button>
           <p class="mt-2 hover:underline text-blue-500"> Learn more </p>
           <hr class="my-4 mx-auto h-1 bg-gray-200 rounded border-0 md:my-10"></hr>
@@ -112,8 +109,7 @@ export default function Comparison() {
           <p class="pt-10 text-xl md:text-2xl font-bold"> 19" Wine Barrel </p>
           <p class="mt-3 md:mt-8"> From $1899 </p>
           <button class="bg-blue-500 hover:bg-blue-400 text-white py-1 px-3 rounded-full mt-2">
-            {" "}
-            Buy{" "}
+            Buy
           </button>
           <p class="mt-2 hover:underline text-blue-500"> Learn more </p>
           <hr class="my-4 mx-auto h-1 bg-gray-200 rounded border-0 md:my-10"></hr>
@@ -156,8 +152,7 @@ export default function Comparison() {
           <p class="pt-10 text-xl md:text-2xl font-bold"> 17" Wine Barrel </p>
           <p class="mt-3 md:mt-8"> From $1829 </p>
           <button class="bg-blue-500 hover:bg-blue-400 text-white py-1 px-3 rounded-full mt-2">
-            {" "}
-            Buy{" "}
+            Buy
           </button>
           <p class="mt-2 hover:underline text-blue-500"> Learn more </p>
           <hr class="my-4 mx-auto h-1 bg-gray-200 rounded border-0 md:my-10"></hr>
