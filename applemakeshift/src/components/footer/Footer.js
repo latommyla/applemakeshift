@@ -49,7 +49,7 @@ export default function FooterMain() {
                 <Footer.Link href="/warranty">Warranty</Footer.Link>
               </Footer.LinkGroup>
             </div>
-            <div>
+            <div class="pb-4">
               <Footer.Title title="Get Connected" />
               <Footer.LinkGroup col={true}>
                 <Footer.Link href="/affiliateprogram">
